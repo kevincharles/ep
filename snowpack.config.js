@@ -1,8 +1,8 @@
 /** @type {import("snowpack").SnowpackUserConfig } */
 module.exports = {
   mount: {
-    public: { url: '/', static: true },
-    src: { url: '/dist' },
+    "src/one": { url: '/one' },
+    "src/two": { url: '/two' },
   },
   plugins: ['@snowpack/plugin-react-refresh', '@snowpack/plugin-dotenv'],
   routes: [
@@ -17,7 +17,7 @@ module.exports = {
     /* ... */
   },
   devOptions: {
-    /* ... */
+    openUrl: '/one',
   },
   buildOptions: {
     /* ... */

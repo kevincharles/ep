@@ -16,8 +16,11 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.jsx</code> and save to reload.
+          Hello Two
         </p>
+        <div>
+          <a href='/one'>one</a>
+          </div>
         <p>
           Page has been open for <code>{count}</code> seconds.
         </p>
